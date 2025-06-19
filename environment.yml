@@ -1,0 +1,23 @@
+name: tm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - notebook
+  - ipykernel
+  - xeus-python
+  - transformers
+  - protobuf
+  - sentencepiece
+  - pip:
+    - scipy
+    - numpy
+    - seaborn
+    - matplotlib
+    - statsmodels
+    - easyocr
+    - tiktoken
+    - torch
+    - google-cloud
+    - google-cloud-translate
